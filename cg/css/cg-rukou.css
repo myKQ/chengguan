@@ -1,0 +1,260 @@
+/*banner开始*/
+.cg-main {
+	background: none;
+}
+.rukou-banner img {
+	height: 347px;
+}
+.rukou-nav {
+    background-color: #ccc;
+    height: 50px;
+    margin: 42px auto;
+}
+.rukou-nav div {
+	display: inline-block;
+	margin-top: -12px;
+	width: 150px;
+	height: 62px;
+	color: #fff;
+	text-align: center;
+	line-height: 62px;
+	background-color: #2aa8d3;
+}
+.triangle::after {
+	content: url('../images/xiaosanjiao.png');
+	position: relative;
+	left: 47px;
+    top: -24px;
+}
+/*轮播开始*/
+.cg-banner {
+	border: 1px solid #ccc;
+}
+.cg-main .cg-banner,
+.cg-main .cg-help,
+.cg-main .cg-bc
+{
+	background-color: #fff;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.cg-main .rk-banner {
+	padding: 5px;
+}
+.cg-main .cg-banner .item {
+	width: 574px;
+}
+.cg-main .cg-banner .item  img {
+	width: 100%;
+}
+.cg-main .cg-banner .carousel {
+	display: inline-block;
+}
+.cg-main .cg-banner .carousel-indicators {
+	width: auto;
+	left: 80%;
+	line-height: 40px;
+	margin-left: 0;
+	bottom: 0;
+	margin-bottom: 0;
+}
+.cg-main .cg-banner .carousel-caption {
+	left: 0px;
+	bottom: 0px;
+	height: 40px;
+	line-height: 40px;
+	padding-top: 0px;
+	text-align: left;
+	text-indent: 15px;
+}
+.cg-main .cg-banner .nav li{
+	float: left;
+	width: 110px;
+	height: 38px;
+	line-height: 38px;
+	text-align: center;
+}
+.cg-main .cg-banner .nav a {
+	padding: 0;
+	color: #333;
+}
+.cg-main .cg-banner .banner-nav {
+	margin-bottom: 0;
+	background-color: #f2f2f2;
+}
+.cg-main .cg-banner .tab-pane li {
+	line-height: 36.394px;
+	list-style-type: disc;
+	margin-left: 24px;
+}
+.cg-main .cg-banner .tab-pane a {
+	color: #333;
+}
+.cg-main .cg-banner .nv-time {
+	text-align: right;
+}
+/*问题与管理开始*/
+.cg-main .rukou-wtgl {
+	padding: 0;
+	border: 0;
+}
+.rukou-wtgl .rukou-wt {
+	display: inline-block;
+
+}
+.rukou-wtgl .rukou-wt button {
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	background-color: #2aa8d3;
+	color: #fff;
+	text-align: center;
+	border: none;
+	margin-top: 40px;
+}
+.rukou-wtgl .problem {
+	height: 38px;
+    line-height: 38px;
+    margin-top: 10px;
+    padding: 0 10px;
+    border-bottom: 1px solid #ccc;
+}
+.rukou-wtgl .problem span {
+	width: 5px;
+    line-height: 18px;
+    background-color: #2aa8d3;
+    display: inline-block;
+    margin-right: 10px;
+}
+.rukou-wtgl .problem li:first-child {
+	color: #2aa8d3;
+	font-weight: 600;
+}
+.rukou-wtgl .wenda {
+	padding: 30px 10px;
+}
+.rukou-wtgl .wenda li {
+	border-bottom: 1px dashed #ccc;
+}
+.rukou-wtgl .wenda h4 {
+	font-weight: 600;
+}
+.rukou-wtgl .wenda h4::before {
+	content: url('../images/wen.png');
+	position: relative;
+	top: 6px;
+}
+.rukou-wtgl .wenda p::before {
+	content: url('../images/da.png');
+	position: relative;
+	top: 6px;
+}
+.rukou-wtgl .rukou-wt,
+.rukou-wtgl .rukou-gl
+{
+	width: 580px;
+	height: 534px;
+	border: 1px solid #ccc;
+	box-sizing: border-box;
+}
+.rukou-wtgl .rukou-gl {
+	padding: 10px;
+}
+.rukou-gl .guanli {
+	width: 549px;
+	height: 105px;
+	margin: 20px auto;
+}
+.jianshe.triangle::after {
+	left: 31px;
+}
+/*建设开始*/
+.rukou-jianshe {
+	margin-bottom: 40px;
+}
+.rukou-jianshe .jianshe-img {
+	width: 587px;
+	margin-right: 40px;
+}
+.rukou-jianshe img {
+	width: 100%;
+}
+.part-title {
+	display: inline-block;
+	line-height: 20px;
+	margin-bottom: 20px;
+	color: #2aa8d3;
+	border-bottom: 1px solid #2aa8d3;
+}
+.rukou-data .data-left a {
+	display: block;
+	width: 256px;
+	height: 85px;
+	line-height: 85px;
+	text-align: center;
+	background-color: #2aa8d3;
+	color: #fff;
+	margin-top: 10px;
+}
+.rukou-data .quxiao {
+	border: none;
+}
+.rukou-data .quxiao a {
+	color: #a9a9a9;
+	width: 75px;
+	height: 30px;
+	text-align: center;
+	line-height: 30px;
+	display: inline-block;
+}
+.dataShow{
+	border-radius: 15px;
+	border: 1px solid #3399cc;
+	color: #3399cc !important;
+}
+.rukou-jianshe .jianshe-text {
+	line-height: 46.1px;
+}
+/*展示联系*/
+.rukou-zslx .rukou-zs,
+.rukou-zslx .rukou-lx
+{
+	width: 580px;
+	display: inline-block;
+}
+.rukou-zslx .rukou-lx {
+	border: 1px solid #ccc;
+	height: 160px;
+	padding: 20px;
+	box-sizing: border-box;
+}
+.rukou-zslx .rukou-lx a {
+	line-height: 30px;
+	color: #444;
+}
+.rukou-lx {
+	overflow: hidden;
+}
+.rukou-zslx .rukou-lx p {
+	margin-bottom: 0px;
+}
+.rukou-zs a {
+	display: inline-block;
+	width: 174px;
+	height: 160px;
+	border: 1px solid #ccc;
+	text-align: center;
+}
+.rukou-zs .gongyuan {
+	margin-right: 30px;
+}
+.rukou-zs a img {
+	width: 48px;
+	height: 48px;
+	margin: 0 auto;
+	margin-top: 35px;
+}
+.rukou-zs a p {
+	margin-top: 30px;
+	color: #444;
+}

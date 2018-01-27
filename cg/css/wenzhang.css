@@ -1,0 +1,179 @@
+.curmb {
+	margin: 50px auto;
+	border-bottom: 1px solid #ccc;
+}
+.wenzhang-left {
+	display: inline-block;
+}
+.wenzhang-left .rukou-title {
+	text-align: center;
+	height: 60px;
+	line-height: 60px;
+	background-color: #2aa8d3;
+	color: #fff;
+}
+.wenzhang-left li {
+	text-align: center;
+	border-bottom: 1px solid #ededed;
+	background-color: #f8f8f8;
+}
+.wenzhang-left li a {
+	height: 60px;
+	line-height: 60px;
+	display: inline-block;
+}
+.wenzhang-right {
+	padding-left: 40px;
+	box-sizing: border-box;
+}
+.wenzhang-right .tab-pane .panel-heading {
+	color: #2aa8d3; 
+}
+
+.table > tbody > tr > td {
+	border-top: 0!important;
+}
+.table > tbody > tr > td a {
+	color: #616769;
+	font-size: 15px;
+}
+.table tr {
+	border-bottom: 1px solid #ddd;
+}
+.wenzhang-right .fenye {
+	margin-top:90px;
+	text-align: center;
+}
+.fenye .all,
+.fenye .first,
+.fenye .pre,
+.fenye .num,
+.fenye .next,
+.fenye .last
+{
+	border: 1px solid #ccc;
+	margin: 0 5px;
+	height: 34px;
+	line-height: 34px;
+	padding: 5px;
+	font-size: 14px;
+	color: #444;
+}
+.fenye .num {
+	width: 34px;
+}
+.wenzhang-tip {
+	border: 1px solid #ccc;
+	padding: 10px;
+}
+/*查询 爆料*/
+.chaxun,
+.baoliao
+{
+	border: 1px solid #ccc;
+	padding: 40px;
+	margin-bottom: 50px;
+}
+.chaxun>p,
+.baoliao>p
+{
+	margin: 24px auto;
+	color: #2aa8d3;
+}
+.chaxun .msg li,
+.baoliao .msg li
+{
+	margin: 20px auto;
+}
+.chaxun label,
+.baoliao label
+{
+	width: 100px;
+	text-align: right;
+	font-weight: normal;
+}
+.chaxun label span {
+	text-align: right;
+}
+.chaxun input,
+.baoliao input
+{
+	border: 1px solid #ccc;
+}
+.chaxun .msg .tijiao-yzm,
+.baoliao .msg .baoliao-yzm
+{
+	width: 112px;
+	padding: 0 5px;
+}
+.chaxun .msg p {
+	margin-left: 100px;
+}
+.chaxun .msg .chaxun-tijiao
+{
+	width: 100px;
+	height: 30px;
+	margin-left: 100px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #ff7b00;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+.baoliao-center {
+	width: 100%;
+	text-align: center;
+	margin-top: 50px;
+}
+.baoliao .msg .baoliao-tijiao {
+	width: 100px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	background-color: #ff7b00;
+	color: #fff;
+	border: none;
+	border-radius: 5px;
+}
+.chaxun .detail {
+	border: 1px solid #ccc;
+	border-top: none;
+	font-size: 0;
+}
+.chaxun .detail li{
+	height: 36px;
+	line-height: 36px;
+	border-top: 1px solid #ccc;
+}
+.chaxun .detail span {
+	width: 100px;
+	height: 36px;
+	text-align: center;
+	display: inline-block;
+	background-color: #c0ddef;
+	border-bottom: 1px solid #ccc;
+}
+.chaxun .detail div {
+	display: inline-block;
+	text-indent: 15px;
+}
+.baoliao .msg p {
+	margin: 24px auto;
+	color: #2aa8d3;
+}
+.baoliao .msg textarea {
+	padding: 10px;	
+} 
+.leixing select{
+	width: 195px;
+	text-align: center;
+	height: 30px;
+}
+.yesNo {
+	display: inline-block;
+}
+.yesNo label {
+	width: 60px;
+	text-align: center;
+}

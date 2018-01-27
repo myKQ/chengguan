@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>城管入口</title>
+    <link rel="stylesheet" type="text/css" href="../css/base.css">
+    <link rel="stylesheet" type="text/css" href="../css/common.css">
+    <link rel="stylesheet" type="text/css" href="../css/wenzhang.css">
+    <link rel="stylesheet" type="text/css" href="../libs/bootstrap/css/bootstrap.css">
+</head>
+
+<body>
+    <header>
+        <nav class="cg-top">
+            <div class="cg-container">
+                <div class="fl">
+                    <span>欢迎来到智慧城管网站！</span>
+                </div>
+                <div class="fr">
+                    <span class="top-date">今天是：2017年12月27日 星期六</span>
+                    <a href="">注册</a> &nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+                    <a href="">登录</a>
+                </div>
+            </div>
+        </nav>
+        <section class="cg-container cg-tit clear">
+            <div class="cg-logo fl">
+                <img src="../images/logo.png">
+            </div>
+            <div class="cg-search fr">
+                <input type="text" placeholder="请输入关键词" name="keyword">
+                <button class="searchBtn"></button>
+            </div>
+        </section>
+        <!-- 导航 -->
+        <div class="cg-nav">
+            <nav class="cg-container">
+                <ul>
+                    <li class="cg-nav-bgc fl"><a href="">网站首页</a></li>
+                    <li class="fl"><a href="pags/cg-rukou.html">城管入口</a></li>
+                    <li class="fl"><a href="">办事大厅</a></li>
+                    <li class="fl"><a href="">讨论社区</a></li>
+                    <li class="fl"><a href="">招标信息</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <section class="cg-main">
+        <!-- banner -->
+        <div class="cg-container">
+            <img src="../images/cg-banner.png">
+        </div>
+        <!--面包屑-->
+        <div class="cg-container curmb">
+            <p class="position">您当前位置：<a href="">首页</a>&gt;&gt;<a href="">城管入口</a>&gt;&gt;<a href="" class="">全民管理</a></p>
+        </div>
+        <!-- 全民管理 -->
+        <div class="cg-container">
+            <!-- Nav tabs -->
+            <ul class="wenzhang-left w20" role="tablist">
+                <div class="rukou-title">城管入口</div>
+                <li role="presentation"><a class="" href="#chaxun" role="tab" data-toggle="tab">案件进度查询</a></li>
+                <li role="presentation"><a class="" href="#baoliao" role="tab" data-toggle="tab">我要爆料</a></li>
+                <li role="presentation"><a class="" href="#jiandu" role="tab" data-toggle="tab">执法监督</a></li>
+                <li role="presentation"><a class="" href="#fagui" role="tab" data-toggle="tab">政策法规</a></li>
+                <li role="presentation"><a class="" href="#yuebao" role="tab" data-toggle="tab">城管月报</a></li>
+                <li role="presentation"><a class="" href="#wenti" role="tab" data-toggle="tab">常见问题解答</a></li>
+                <li role="presentation"><a class="" href="#jianbao" role="tab" data-toggle="tab">城管简报</a></li>
+                <li role="presentation"><a class="" href="#zazhi" role="tab" data-toggle="tab">城管杂志</a></li>
+                <li role="presentation"><a class="" href="#zhiyuanzhe" role="tab" data-toggle="tab">美丽志愿者</a></li>
+                <li role="presentation"><a class="" href="#lianxi" role="tab" data-toggle="tab">联系我们</a></li>
+            </ul>
+            <!-- Tab panes -->
+            <div class="tab-content wenzhang-right fr w80">
+                <div role="tabpanel" class="tab-pane chaxun active" id="chaxun">
+                    <div class="wenzhang-tip">
+                        <h4>温馨提示</h4>
+                        <p>在您通过本网站咨询时，请务必遵守国家法律法规，做到实事求是，并留下您的真实姓名、联系电话、我们将为您保密并及时回复。否则，不予受理。<span style="color:red;">*</span>号是必填项。</p>
+                    </div>
+
+                    <p>城市管理投诉查询</p>
+                    <form class="msg" method="post" id="" name="">
+                        <ul>
+                            <li class="">
+                                <label>查询方式&nbsp;&nbsp;</label>
+                                <input type="" name="">
+                                <div class="fr">
+                                	<label><span style="color:red;">*</span>电子邮箱&nbsp;&nbsp;</label>
+                                	<input type="" name="">
+                                </div>
+                            </li>
+                            <li class="">
+                                <label>受理号&nbsp;&nbsp;</label>
+                                <input type="" name="">
+                            </li>
+                            <li class="">
+                                <label>所在区域&nbsp;&nbsp;</label>
+                                <input type="" name="">
+                            </li>
+                            <li class="">
+                                <label>手机验证码&nbsp;&nbsp;</label>
+                                <input type="" name="">
+                                <button class="chaxun-yzm">获取验证码</button>
+                            </li>
+                            <p>如何获得验证码： 市民投诉城市管理问题时，需登记手机号码，方可接收验证码短信。 如果没有登记手机号码，请拨打12319热线电话人工查询案件信息。</p>
+                        </ul>
+                        <button class="chaxun-tijiao">提 交</button>
+                    </form>
+
+                    <p>您所查询的号案件的办理情况如下：</p>
+                    <ul class="detail">
+                    	<li><span>事发位置</span><div>111111111</div></li>
+                    	<li><span>问题描述</span><div>111111111</div></li>
+                    	<li><span>受理日期</span><div>111111111</div></li>
+                    	<li><span>处理结果</span><div>111111111</div></li>
+                    </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane baoliao" id="baoliao">
+                    <div class="wenzhang-tip">
+                        <h4>温馨提示</h4>
+                        <p>在您通过本网站咨询时，请务必遵守国家法律法规，做到实事求是，并留下您的真实姓名、联系电话、我们将为您保密并及时回复。否则，不予受理。<span style="color:red;">*</span>号是必填项。</p>
+                    </div>
+                    <p>城市管理投诉查询</p>
+                    <form class="msg" method="post" id="" name="">
+                        <ul>
+                            <li class="">
+                                <label><span style="color:red;">*</span>姓名&nbsp;&nbsp;</label>
+                                <input type="" name="">
+                                <div class="fr">
+                                	<label><span style="color:red;">*</span>电子邮箱&nbsp;&nbsp;</label>
+                                	<input type="" name="">
+                                </div>
+                            </li>
+                            <li class="">
+                                <label><span style="color:red;">*</span>手机号码&nbsp;&nbsp;</label>
+                                <input type="" name="">
+                            </li>
+                            <li class="">
+                                <label>固定电话&nbsp;&nbsp;</label>
+                                <input type="" name="">
+                            </li>
+                            <li class="">
+                                <label>联系地址&nbsp;&nbsp;</label>
+                                <input style="width:85%;" type="" name="">
+                            </li>
+
+							<p>填写您的信件类型</p>
+							<li class="leixing">
+                                <label>类型&nbsp;&nbsp;</label>
+                                <select>
+                                    <option>咨询</option>
+                                    <option>建议或意见</option>
+                                    <option>其他</option>
+                                </select>
+                            </li>
+                            <li class="">
+                                <label>是否公开&nbsp;&nbsp;</label>
+                                <div class="yesNo">
+                                    <input type="radio" id="yes" name="yesNo" checked="checked" />
+                                    <label for="yes">公开</label>
+                                    &nbsp;&nbsp;&nbsp;&nbsp;
+                                    <input type="radio" id="no" name="yesNo" />
+                                    <label for="no">不公开</label>
+                                </div>
+                            </li>
+                            <li class="">
+                                <label><span style="color:red;">*</span>标题&nbsp;&nbsp;</label>
+                                <input style="width:85%;" type="" name="">
+                            </li>
+                            <li class="">
+                                <label style="vertical-align: top;"><span style="color:red;">*</span>内容&nbsp;&nbsp;</label>
+                                <textarea rows="10" cols="80%" placeholder="请输入您要爆料的内容（1000字以内）"></textarea>
+                            </li>
+
+                            <li class="">
+                                <label><span style="color:red;">*</span>手机验证码&nbsp;&nbsp;</label>
+                                <input type="" name="">
+                                <button class="baoliao-yzm">获取验证码</button>
+                            </li>
+                        </ul>
+                        <div class="baoliao-center">
+                        	<button class="baoliao-tijiao">提 交</button>
+                        </div>
+                    </form>
+                </div>
+                <div role="tabpanel" class="tab-pane panel-default" id="jiandu">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">执法监督</div>
+                    <!-- Table -->
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- 分页 -->
+                    <div class="fenye">
+                        <span class="all">共有<span>66</span>页 </span>
+                        <a class="first" href="">首 页</a>
+                        <a class="pre" href="">上一页</a>
+                        <span class="num">1</span>
+                        <a class="next" href="">下一页</a>
+                        <a class="last" href="">尾 页</a>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane panel-default" id="fagui">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">政策法规</div>
+                    <!-- Table -->
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- 分页 -->
+                    <div class="fenye">
+                        <span class="all">共有<span>66</span>页 </span>
+                        <a class="first" href="">首 页</a>
+                        <a class="pre" href="">上一页</a>
+                        <span class="num">1</span>
+                        <a class="next" href="">下一页</a>
+                        <a class="last" href="">尾 页</a>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane panel-default" id="yuebao">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">城管月报</div>
+                    <!-- Table -->
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- 分页 -->
+                    <div class="fenye">
+                        <span class="all">共有<span>66</span>页 </span>
+                        <a class="first" href="">首 页</a>
+                        <a class="pre" href="">上一页</a>
+                        <span class="num">1</span>
+                        <a class="next" href="">下一页</a>
+                        <a class="last" href="">尾 页</a>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane panel-default" id="wenti">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">常见问题解答</div>
+                    <!-- Table -->
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- 分页 -->
+                    <div class="fenye">
+                        <span class="all">共有<span>66</span>页 </span>
+                        <a class="first" href="">首 页</a>
+                        <a class="pre" href="">上一页</a>
+                        <span class="num">1</span>
+                        <a class="next" href="">下一页</a>
+                        <a class="last" href="">尾 页</a>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane panel-default" id="jianbao">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">城管简报</div>
+                    <!-- Table -->
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- 分页 -->
+                    <div class="fenye">
+                        <span class="all">共有<span>66</span>页 </span>
+                        <a class="first" href="">首 页</a>
+                        <a class="pre" href="">上一页</a>
+                        <span class="num">1</span>
+                        <a class="next" href="">下一页</a>
+                        <a class="last" href="">尾 页</a>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane panel-default" id="zazhi">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">城管杂志</div>
+                    <!-- Table -->
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- 分页 -->
+                    <div class="fenye">
+                        <span class="all">共有<span>66</span>页 </span>
+                        <a class="first" href="">首 页</a>
+                        <a class="pre" href="">上一页</a>
+                        <span class="num">1</span>
+                        <a class="next" href="">下一页</a>
+                        <a class="last" href="">尾 页</a>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane panel-default" id="zhiyuanzhe">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">美丽志愿者</div>
+                    <!-- Table -->
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- 分页 -->
+                    <div class="fenye">
+                        <span class="all">共有<span>66</span>页 </span>
+                        <a class="first" href="">首 页</a>
+                        <a class="pre" href="">上一页</a>
+                        <span class="num">1</span>
+                        <a class="next" href="">下一页</a>
+                        <a class="last" href="">尾 页</a>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane panel-default" id="lianxi">
+                    <!-- Default panel contents -->
+                    <div class="panel-heading">联系我们</div>
+                    <!-- Table -->
+                    <table class="table">
+                        <tbody>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                            <tr>
+                                <td class="fl"><a href="">实时维护县区日常活动</a></td>
+                                <td class="fr">2017-01-09</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <!-- 分页 -->
+                    <div class="fenye">
+                        <span class="all">共有<span>66</span>页 </span>
+                        <a class="first" href="">首 页</a>
+                        <a class="pre" href="">上一页</a>
+                        <span class="num">1</span>
+                        <a class="next" href="">下一页</a>
+                        <a class="last" href="">尾 页</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- 底部导航 -->
+        <div class="cg-bot-nav clear">
+            <ul>
+                <span><a href="">首页&nbsp;&nbsp;&nbsp;&nbsp;</a>|</span>&nbsp;&nbsp;
+                <span><a href="">城管入口&nbsp;&nbsp;&nbsp;&nbsp;</a>|</span>&nbsp;&nbsp;
+                <span><a href="">办事大厅&nbsp;&nbsp;&nbsp;&nbsp;</a>|</span>&nbsp;&nbsp;
+                <span><a href="">讨论社区&nbsp;&nbsp;&nbsp;&nbsp;</a>|</span>&nbsp;&nbsp;
+                <span><a href="">招标信息</a></span>
+            </ul>
+        </div>
+    </section>
+    <footer>
+        <div class="cg-container cg-footer">
+            <div class="left">
+                <img src="../images/dangzhengjiguan.png">
+            </div>
+            <div class="content">
+                <p>版权所有：&nbsp;&nbsp;&nbsp;&nbsp;智慧城管&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;网站标识码：123456789&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;陕ICP备12345678号-1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;陕公网安备 61011202000105</p>
+                <p>地址：xxxxxxxxxxxxxxx&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;邮 编：123456&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;城管投诉电话：(029)123456789</p>
+            </div>
+            <div class="right">
+                <img src="../images/zhengfuwangzhan.png">
+            </div>
+        </div>
+    </footer>
+    <script src="../libs/jquery/jquery.min.js"></script>
+    <script src="../libs/bootstrap/js/bootstrap.min.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/wenzhang.js"></script>
+</body>
+
+</html>
